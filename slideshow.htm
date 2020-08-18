@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="slideshow.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Comité des oeuvres sociales</title>
+</head>
+<body>
+  
+
+    <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked onclick="init(this)">
+            <input type="radio" name="r" id="r2" onclick="init(this)">
+            <input type="radio" name="r" id="r3" onclick="init(this)">
+            <input type="radio" name="r" id="r4" onclick="init(this)">
+            <input type="radio" name="r" id="r5" onclick="init(this)">
+            <div class="slide s1">
+                <img src="1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="5.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+        </div>
+
+    </div>
+
+    
+
+    <nav>
+        <div class="logo">
+            <h4>لجنة الخدمات الاجتماعية</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#section1">اللجنة</a></li>
+            <li><a href="#section2">الخدمات</a></li>
+            <li><a href="#section3">الوثائق</a></li>
+            <li><a href="#section4">الاتصال</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <div class="white a2" id="section1">
+            <div class="firstcontainer">
+                <img src="ugta.jpg" alt="" class="image" width="350px" height="256px">
+                <img src="flag2.png" alt="" height="180px" class="imggg">
+            </div>
+            
+            <div class="text"><b> أسست لجنة الخدمات الاجتماعية من أجل خدمة العامل و تهوين المشاق <br>
+                المادية عليه و ذلك بتقديم مساعدات مختلفة <br>
+                و تنظيم نشاطات متنوعة</b> <br>
+            </div>
+        </div>
+        <div class="blue a1" id="section2">
+            <div class="part" id="money" onmouseover="light2(this)" onmouseout="dark2(this)"> 
+                <img src="money.png" class="image2" alt="">
+                <div class="description ded">المنح</div> 
+            </div>
+            <div class="part" id="borrow" onmouseover="light2(this)" onmouseout="dark2(this)"> 
+                <img src="borrow.png" class="image2" alt="">
+                <div class="description ded">السلفة</div> 
+            </div>
+            <div class="part" id="help" onmouseover="light2(this)" onmouseout="dark2(this)"> 
+                <img src="omraf.png" class="image2" alt="">
+                <div class="description">المساعدات الموسمية</div> 
+            </div>
+            <div class="part" id="activities" onmouseover="light2(this)" onmouseout="dark2(this)"> 
+                <img src="activités.png" class="image2" alt="">
+                <div class="description">النشاطات الترفيهية <br> و الثقافية و الرياضية</div> 
+            </div>
+        </div>
+        <div class="white a3" id="section3">
+            <div class="p regle p1">
+                <div class="container" id="justice" onmouseover="light(this)" onmouseout="dark(this)">
+                    <img src="justice.png" alt="" class="pic">
+                    <h2 class="titledoc">القانون الداخلي</h2>
+                </div>
+                
+            </div>
+            
+            <div class="p forms p1">
+                <div class="container" id="form" onmouseover="light(this)" onmouseout="dark(this)">
+                    <img src="form.png" alt="" class="pic">
+                    <h2 class="titledoc">الاستمارات</h2>
+                </div>
+                
+            </div>
+
+            <div class="p perspective p1">
+                <div class="container" id="projects" onmouseover="light(this)" onmouseout="dark(this)">
+                    <img src="projet.png" alt="" class="pic">
+                    <h2 class="titledoc">المشاريع</h2>
+                </div>
+            </div> 
+            <div class="p announces p1">
+                <div class="container" id="announces" onmouseover="light(this)" onmouseout="dark(this)">
+                    <img src="annonce.png" alt="" class="pic">
+                    <h2 class="titledoc">الإعلانات</h2>
+                </div>
+            </div> 
+        </div>
+        <div class="blue a" id="section4">
+            <div class="lastwrapper">
+                <div class="lastcontainer">
+                    <img src="contact.png" alt="" class="lastimg">
+                    <div class="infos">
+                      <b>  لجنة الخدمات الاجتماعية <br>
+                        038.40.00.36 <br>
+                        CHU Annaba <br>  <b></b>
+                    </div>
+                </div>
+                <div class="lastlastcontainer">
+                    <div class="lastinfo"> <b>بالاتفاق مع</b> </div>
+                    <img src="kamal.JPG" alt="" class="convention" width="262px" height="161px">
+                </div>
+               
+            </div>
+            
+            
+            
+        </div>
+    </div>
+
+
+    <script src="body.js"></script>
+
+    <script>
+        var i=1,car="r";
+
+        var myVar=window.setInterval(slider, 2500);
+
+        function init(x) {
+            var txt=x.id;
+            i=Number(txt[1]);
+            console.log(i);
+        }
+
+        function slider() {
+            console.log(i);
+            var identifiant=car+i;
+            if (i==5) i=0;
+            else i++;
+            identifiant=car+i;
+            document.getElementById(identifiant).checked = true;
+        }
+
+        function light(x) {
+            x.style.border = "1.2px solid #00aeef";
+            x.style.borderRadius = "10px";
+        }
+        function dark(x) {
+            x.style.border = "0px solid #00aeef";
+        }
+         function light2(x) {
+            x.style.border = "1.2px solid white";
+            x.style.borderRadius = "10px";
+        }
+        function dark2(x) {
+            x.style.border = "0px solid white";
+        }
+
+        document.getElementById("money").setAttribute('onclick', 'location.href = "documents/money.pdf"');
+        document.getElementById("borrow").setAttribute('onclick', 'location.href = "documents/borrow.pdf"');
+        document.getElementById("help").setAttribute('onclick', 'location.href = "documents/help.pdf"');
+        document.getElementById("activities").setAttribute('onclick', 'location.href = "documents/activities.pdf"');
+        document.getElementById("justice").setAttribute('onclick', 'location.href = "rule.htm"');
+        document.getElementById("form").setAttribute('onclick', 'location.href = "forms.htm"');
+        document.getElementById("projects").setAttribute('onclick', 'location.href = "documents/projects.pdf"');
+        document.getElementById("announces").setAttribute('onclick', 'location.href = "announces/scolarité.pdf"');
+
+
+    </script>
+</body>
+</html>
